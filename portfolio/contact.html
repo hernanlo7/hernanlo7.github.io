@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Logan Hernandez -->
+<html lang="en">
+
+
+	<head>
+		<title>Contact Me</title>
+	    <meta charset= "utf-8" >
+		<link rel="stylesheet" href="css/styles.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+	</head>
+
+
+
+	<body>
+		
+		<div id="container">
+			
+			<!-- mobile nav -->
+			<nav class="mobile-nav">
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+				 	<a href="about.html">About Me</a>
+					<a href="availability.html">Availability</a>
+					<a href="work.html">Work</a>
+					<a href="contact.html">Contact Me</a>
+				</div>
+				 <a class="menu-icon" onclick="hamburger()">
+					 <div>&#9776;</div>
+					</a>
+					</nav>
+			
+		<!--Use the header area for the website name and logo-->
+		<header>
+			<h1>Logan Hernandez</h1>
+			
+			<figure class="frame">
+			<a href="contact.html"><img src="images/GVSU.jpg" alt="Grand Valley State University"></a>
+			<figcaption class="pic-text">Grand Valley State University</figcaption>
+			</figure>
+			
+			   
+		</header>
+		
+		<!-- Use the nav area to add hyperlinks to other pages within the website-->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				 <li><a href="about.html">About Me</a></li>
+				<li><a href="availability.html">Availability</a></li> 
+				 <li><a href="work.html">Work</a></li>
+				 <li><a href="contact.html">Contact Me</a></li>
+				
+			</ul>
+			
+		</nav>
+		
+		<!--use the main area to add webpage footer content-->
+		<main>
+			
+			<div id="contact">
+				
+				<h2>Ready to get started? Contact me today.</h2>
+				 <h4 class="mobile tel-link"><a href="tel:2317197800">(231) 719-7800</a></h4> 
+				 <h4 class="tablet-desktop tel-num">(231) 719-7800</h4>
+				 <h4>Email me at: <a href="mailto:hernanlo@mail.gvsu.edu" class="link">hernanlo@mail.gvsu.edu</a></h4> 
+				 <h4>Visit me at: 1 Campus Dr, Allendale, MI 49401</h4> 
+				 
+				 
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.686400755946!2d-85.89052208467777!3d42.963812604751666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819a3206a196b63%3A0xe2002b234f72cb73!2sCook-Dewitt%20Center%2C%201%20Campus%20Dr%2C%20Allendale%2C%20MI%2049401!5e0!3m2!1sen!2sus!4v1663270933301!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+				 
+			</div>
+			
+				<div id="form">
+					<h2>Complete the form below to begin your free trial.</h2>
+				
+					 <form class="form-grid"> <!--Start Form -->
+				
+					<fieldset>
+						<legend>Customer Information</legend>
+						<label for="fName">First Name:</label>
+						<input type="text" name="fName" id="fName" required>
+					
+						<label for="lName">Last Name:</label>
+						<input type="text" name="lName" id="lName" required>
+					
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" required>
+					
+						<label for="phone">Phone:</label>
+						<input type="tel" id="phone" name= "phone" required>
+					
+					</fieldset>
+				
+					<fieldset>
+						<legend>Additional Information</legend>
+						<p>I would like more information about:</p>
+					
+						<label for="information-technology"><input type="checkbox" name="interest" id="information-technology" value="Information Technology">Information Technology</label>
+					
+						<label for="career-pathways"><input type="checkbox" name="interest" id="career-pathways" value="Career Pathways">Career Pathways</label>
+					
+						<label for="classes"><input type="checkbox" name="interest" id="classes" value="Classes">Classes</label>
+					
+					</fieldset>
+				
+					<fieldset>
+						<legend>Notable Skills</legend>
+						
+								
+								<label for="database-management"><input type="checkbox" name="interest" id="database-management" value="Database Management">Database Management</label>
+								
+								<label for="software"><input type="checkbox" name="interest" id="software" value="Software">Software</label>
+								
+								<label for="hardware"><input type="checkbox" name="interest" id="hardware" value="Hardware">Hardware</label>
+								
+								<label for="coding"><input type="checkbox" name="interest" id="coding" value="Coding">Coding</label>
+								
+								<label for="other"><input type="checkbox" name="interest" id="other" value="Other">Other</label>
+								
+							</fieldset>
+					
+					
+					<fieldset>
+						<legend>Location</legend>
+						
+							<label for="state">State</label>
+							<select id="state" name="state">
+								<option value="AL">Alabama</option>
+								<option value="TX">Texas</option>
+								<option value="FL">Florida</option>
+								<option value="CA">California</option>
+								<option value="MI" selected>Michigan</option>
+							</select>
+					
+					
+						<label for="questions"> Questions?</label> 
+					
+						<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+					
+					</fieldset>
+				
+				
+					<input type="submit" id="submit" value ="Submit" class="btn">
+					
+				</form>
+			
+			</div>
+			
+			
+		</main>
+		
+		
+		
+		<footer>
+			<p> &#169; Copyright 2022. All Rights Reserved.  </p>
+			
+			<p> <a href="mailto:hernanlo@mail.gvsu.edu" class="action">hernanlo@mail.gvsu.edu</a></p>
+		
+		</footer>
+	
+	 </div> 
+	 
+	 <script src="scripts/script.js"></script>
+	
+	
+	</body>
+
+
+</html>
